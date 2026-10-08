@@ -105,24 +105,39 @@
             </div>
         </section>
     </main>
-        <!-- 報名按鈕區塊 (CTA) -->
+               <!-- 報名與簡章按鈕區塊 (CTA) -->
         <section class="max-w-4xl mx-auto px-4 text-center my-4">
             <div class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 p-[2px] rounded-2xl shadow-lg">
                 <div class="bg-white rounded-[14px] p-6 sm:p-8 flex flex-col sm:flex-row items-center justify-between gap-4">
                     <div class="text-left">
                         <h3 class="text-lg font-bold text-slate-900">立即報名，開啟無限可能</h3>
-                        <p class="text-sm text-slate-500">點擊按鈕前往領取資料報名</p>
+                        <p class="text-sm text-slate-500">詳細參賽細則請參閱競賽簡章</p>
                     </div>
-                    <a href="https://forms.gle/tzWD95bGGsdk1thp9" 
-                       target="_blank" 
-                       rel="noopener noreferrer" 
-                       class="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 text-white font-bold text-lg px-8 py-4 rounded-xl shadow-md hover:shadow-xl transform hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200">
-                        <i class="fa-solid fa-paper-plane"></i>
-                        <span>點我立即進入連結報名</span>
-                    </a>
+                    
+                    <!-- 按鈕群組：包含「下載簡章PDF」與「線上報名」 -->
+                    <div class="flex flex-col sm:flex-row items-center gap-3 w-full sm:w-auto">
+                        <!-- 活動簡章 PDF 按鈕（【提示】請將 href 替換成您的簡章 PDF 檔名或連結） -->
+                        <a href="2026prospectus2" 
+                           target="_blank" 
+                           rel="noopener noreferrer" 
+                           class="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold text-base px-6 py-4 rounded-xl shadow-sm hover:shadow transition-all duration-200 border border-slate-200">
+                            <i class="fa-solid fa-file-pdf text-red-500 text-lg"></i>
+                            <span>下載競賽簡章</span>
+                        </a>
+
+                        <!-- 線上報名按鈕 -->
+                        <a href="https://forms.gle/tzWD95bGGsdk1thp9" 
+                           target="_blank" 
+                           rel="noopener noreferrer" 
+                           class="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 text-white font-bold text-base px-6 py-4 rounded-xl shadow-md hover:shadow-xl transform hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200">
+                            <i class="fa-solid fa-paper-plane"></i>
+                            <span>點我立即進入連結報名</span>
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
+
 
         <!-- 舉辦目的區塊 -->
         <section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
